@@ -1,0 +1,14 @@
+<tool id="test1" name="test" version="2.3">
+  <description>test</description>
+  <command interpreter="python">test.py $text $out</command>
+  <inputs>
+    <param name="text" value"SRR" type="text" />
+	<param format="fasta" name="ref" type="data" label="Source file"/>
+  </inputs>
+  <outputs>
+    <data format="txt" name="out" />
+  </outputs>
+  <help>
+  </help>
+</tool>
+
